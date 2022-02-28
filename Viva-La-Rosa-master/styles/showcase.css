@@ -1,0 +1,11 @@
+.ratio {
+    max-width: 800px;
+}
+
+.frame {
+    display: block;
+}
+
+.img-fluid {
+    max-height: 250px;
+}

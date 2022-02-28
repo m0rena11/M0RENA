@@ -1,0 +1,79 @@
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgb(250, 191, 187) 100%);
+}
+
+.navbar-brand {
+    transition: transform 250ms;
+}
+
+.navbar-brand:hover {
+    transform: translateY(-8px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    color: #fd867963;
+    transition: transform 250ms;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #FD8779;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dd5344;
+    transform: translateY(-3px);
+}
+
+.active {
+    transform: translateY(-3px);
+}
+
+.h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 6em;
+    color: #fd8779;
+}
+
+.h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 5em;
+    color: #f7c4c0;
+}
+
+.h3 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 3em;
+    color: #fd8779;
+}
+
+.h1-p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5em;
+    color: #f8b1ac;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.822);
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #fd8779;
+    font-size: 1.8em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    border-radius: 200px;
+    transition: transform 250ms, box-shadow 250ms;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #f89891;
+    box-shadow: 10px 5px 20px #fd86798c;
+    transform: translateY(-10px);
+}
+
+.footer {
+    background-color: #f7c4c0;
+    color: rgb(0, 0, 0);
+}
+

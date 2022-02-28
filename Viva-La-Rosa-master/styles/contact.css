@@ -1,0 +1,5 @@
+.contact-bg {
+    background: linear-gradient(90deg, rgb(253, 231, 229) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 4em;
+    box-shadow: 0 1.5rem #f7c4c0, 10px 2rem 4rem rgba(255, 255, 255, 0.726)
+}
